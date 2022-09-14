@@ -1,0 +1,18 @@
+#include<stdio.h>
+float interest(int,float,int);
+int main()
+{
+    float P,R,T,SI;
+    printf("enter the values: ");
+    scanf("%f%f%f",&P,&R,&T);
+    SI=interest(P,R,T);
+    printf("%f",SI);
+return 0;
+}
+
+float interest(int P, float R, int T)
+{
+ float SI;
+ SI=(P*R*T)/100;
+return SI;
+}

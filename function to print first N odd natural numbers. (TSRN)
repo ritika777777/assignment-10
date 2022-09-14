@@ -1,5 +1,5 @@
 #include<stdio.h>
-void natural(int);
+void odd(int);
 int main()
 {
 int num;
@@ -9,7 +9,7 @@ natural(num);
 return 0;
 }
 
-void natural(int num)
+void odd(int num)
 {
     int i;
 

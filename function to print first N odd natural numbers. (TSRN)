@@ -1,0 +1,20 @@
+#include<stdio.h>
+void natural(int);
+int main()
+{
+int num;
+printf("enter a number");
+scanf("%d",&num);
+natural(num);
+return 0;
+}
+
+void natural(int num)
+{
+    int i;
+
+for(i=1;i<=num;i=i+2)
+
+    printf("%d",i);
+    }
+
